@@ -1,17 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
-import ProjectDetailsView from '@/views/ProjectDetailsView.vue';
 
 const routes = [
   {
     path: '/portfolio',
     name: 'home',
     component: HomeView
-  },
-  {
-    path: '/portfolio/project/:id',
-    name: 'project-details',
-    component: ProjectDetailsView
   }
 ];
 
