@@ -26,5 +26,12 @@
         "github": "",
         "website": "https://api-empenhos-homologa.salvador.ba.gov.br/api/documentation",
         "type": "API"
+    },
+    {
+        "name": "HextechPlay",
+        "description": "Sistema de mini-games inspirados no universo de runeterra do league of legends. É uma plataforma de jogos para entreterimento e diversão dos usuarios",
+        "github": "",
+        "website": "https://hextechplay.com",
+        "type": "Web App"
     }
 ]
