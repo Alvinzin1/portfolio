@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Users API",
+        "description": "REST API developed for simulating user data queries, allowing routing test and documentation with Swagger, ideal for integration and endpoint validation scenarios.",
+        "github": "https://github.com/gabrielsooliveira/api-laravel",
+        "website": "",
+        "type": "API"
+    },
+    {
+        "name": "BIMI",
+        "description": "Web AI-based virtual assistant system, designed to offer quick, consistent, and accurate responses, optimizing customer support.",
+        "github": "https://github.com/gabrielsooliveira/bimi",
+        "website": "",
+        "type": "Web App"
+    },
+    {
+        "name": "IrrigaGo",
+        "description": "Integrated platform for calculating agricultural crop water requirements, using CLIMWAT and CROPWAT data, and considering variables like soil, climate, and crop type to optimize irrigation.",
+        "github": "https://github.com/gabrielsooliveira/hackathon-cpgoias4",
+        "website": "",
+        "type": "Web App"
+    },
+    {
+        "name": "Commitments API",
+        "description": "REST API for querying public data from the City of Salvador, allowing access to information about commitments, liquidations, and payments, with online interactive documentation.",
+        "github": "",
+        "website": "https://api-empenhos-homologa.salvador.ba.gov.br/api/documentation",
+        "type": "API"
+    },
+    {
+        "name": "HextechPlay",
+        "description": "Minigame system inspired by League of Legends' Runeterra universe. It's a gaming platform for user entertainment and fun.",
+        "github": "",
+        "website": "https://hextechplay.com",
+        "type": "Web App"
+    }
+]

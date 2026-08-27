@@ -1,0 +1,85 @@
+{
+  "experienciasAcademicas": [
+    {
+      "titulo": "Communication Advisor",
+      "empresa": "NEJ Salvador",
+      "periodo": "Apr 2019 - Jul 2019",
+      "descricao": "I worked on the foundation of the Salvador Junior Enterprise Core, leading communication and social media initiatives. I was responsible for planning and executing campaigns, managing ads, and creating institutional content, strengthening the core's digital presence.",
+      "icone": "fa-solid fa-building-circle-check"
+    },
+    {
+      "titulo": "Marketing and Sales Director",
+      "empresa": "Praxis Empresa Jr",
+      "periodo": "Jan 2019 - Jul 2019",
+      "descricao": "I led marketing and customer relationship strategies, structuring sales funnels and communication campaigns. I developed leadership, negotiation, and teamwork skills, besides expanding networking and soft skills essential for the market.",
+      "icone": "fa-solid fa-building-circle-check"
+    },
+    {
+      "titulo": "IT Project Developer",
+      "empresa": "Praxis Empresa Jr",
+      "periodo": "Jan 2018 - Jul 2019",
+      "descricao": "I participated in the development of systems and institutional websites for real clients, applying PHP, MySQL, and Bootstrap. I contributed to delivering functional technological solutions suited to market needs.",
+      "icone": "fa-solid fa-building-circle-check"
+    },
+    {
+      "titulo": "C Programming League Member",
+      "empresa": "Universidade Salvador",
+      "periodo": "Feb 2017 - Nov 2017",
+      "descricao": "I promoted advanced studies in structured programming and coding best practices. I acted as a member, guiding peers in resolving challenges and exchanging technical knowledge.",
+      "icone": "fa-solid fa-users-line"
+    }
+  ],
+  "experienciasProfissionais": [
+    {
+      "titulo": "Mid-level Systems Analyst",
+      "empresa": "Prefeitura de Salvador",
+      "periodo": "Nov 2022 - Present",
+      "descricao": "Full-stack development in PHP (Laravel), Vue.js, and Oracle, focusing on APIs and municipal financial systems. Highlights: Creation of the Audit Trail System, which increased auditor autonomy and reduced analysis time. Development and publication of the Commitment API, expanding fiscal transparency and enabling real-time integrations. Implementation of responsive and accessible interfaces following security and scalability best practices.",
+      "icone": "fa-solid fa-briefcase"
+    },
+    {
+      "titulo": "Junior Systems Analyst",
+      "empresa": "ACP Group",
+      "periodo": "Nov 2021 - Nov 2022",
+      "descricao": "Maintenance and evolution of systems for public agencies using Laravel, Vue.js, and SQL Server. Assured availability and security of critical systems, such as Microsoft account management for PRODEB-BA. Developed the Accountability System for SEFAZ Camaçari, increasing precision and transparency in fiscal management. Configuration of environments with Docker and use of JWT authentication for secure, scalable applications.",
+      "icone": "fa-solid fa-briefcase"
+    },
+    {
+      "titulo": "Web and Mobile Developer",
+      "empresa": "GA Software",
+      "periodo": "Feb 2021 - Nov 2021",
+      "descricao": "Development of management systems and web/mobile interfaces with Vue.js, Quasar, and Laravel. Focus on usability, accessibility, and performance, improving user experience. PostgreSQL database modeling and implementation of SPAs with RESTful API integration.",
+      "icone": "fa-solid fa-briefcase"
+    }
+  ],
+  "experienciasOutras": [
+    {
+      "titulo": "Top 10 Projects (BIMI)",
+      "empresa": "Hackathon Bemobi",
+      "periodo": "Nov 2024",
+      "descricao": "Development of a virtual assistant with AI (Gemini), offering personalized interactions, quick replies, and automation of support processes. The project improved service efficiency and optimized response times.",
+      "icone": "fa-solid fa-diagram-project"
+    },
+    {
+      "titulo": "Top 6 Projects (IrrigaGo)",
+      "empresa": "Hackathon CPGoiás4",
+      "periodo": "Nov 2024",
+      "descricao": "Creation of an agricultural irrigation management platform, integrating climate and water quality data to optimize water resources usage and increase productivity.",
+      "icone": "fa-solid fa-diagram-project"
+    },
+    {
+      "titulo": "Founder",
+      "empresa": "Athos Startup",
+      "periodo": "Mar 2018 - Jun 2018",
+      "descricao": "Conceptualization of a modular ERP solution for small businesses, with REST APIs in .NET, Vue dashboards, and inventory and e-commerce management systems, allowing clients to choose only the required modules.",
+      "icone": "fa-solid fa-people-roof"
+    },
+    {
+      "titulo": "Volunteer",
+      "empresa": "Pure Startup",
+      "periodo": "Mar 2018 - Jun 2018",
+      "descricao": "Support for events and entrepreneurship initiatives, along with the development of the institutional website using HTML5, CSS3, JavaScript, and Bootstrap.",
+      "icone": "fa-solid fa-handshake-angle"
+    }
+  ]
+}

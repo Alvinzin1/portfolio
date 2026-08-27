@@ -9,14 +9,21 @@ const sidebar = sidebarRef
 </script>
 
 <template>
-  <div class="d-flex min-vh-100 overflow-x-hidden">
+  <div class="flex min-h-screen bg-brand-dark overflow-x-hidden text-brand-light">
+    <!-- Sidebar -->
     <Sidebar :ref="sidebar" :isOpen="isSidebarOpen" @toggle="toggleSidebar" />
     
-    <div v-if="isMobile && isSidebarOpen" class="overlay" @click="toggleSidebar"></div>
+    <!-- Mobile Overlay -->
+    <div 
+      v-if="isMobile && isSidebarOpen" 
+      class="fixed inset-0 bg-black/60 z-40 backdrop-blur-sm transition-opacity duration-300 md:hidden" 
+      @click="toggleSidebar"
+    ></div>
     
-    <div class="flex-grow-1 w-100" :class="{'ms-md-320': !isMobile}">
+    <!-- Main Content Area -->
+    <div class="flex-1 w-full md:pl-[320px] transition-all duration-300">
       <Header @toggleSidebar="toggleSidebar" />
-      <main>
+      <main class="w-full">
         <router-view />
       </main>
     </div>
@@ -24,17 +31,5 @@ const sidebar = sidebarRef
 </template>
 
 <style scoped>
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1040;
-}
-
-.ms-md-320 {
-  margin-left: 320px;
-}
+/* Estilos adicionais específicos podem ser deixados limpos, pois o Tailwind lida com o restante */
 </style>
